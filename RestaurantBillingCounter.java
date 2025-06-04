@@ -1,7 +1,8 @@
 import java.util.*;
 
-class RestaurantBiilingSystem
- {
+public class RestaurantBillingCounter {
+
+
 
     // Menu items and their prices
     private static final Map<String, Double> MENU_ITEMS = new LinkedHashMap<>();
@@ -118,4 +119,5 @@ class RestaurantBiilingSystem
             System.out.println("Main thread interrupted.");
         }
     }
+    
 }
